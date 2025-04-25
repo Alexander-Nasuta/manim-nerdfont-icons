@@ -1150,6 +1150,9 @@ sphinx-basic-ng==1.0.0b2 ; python_version >= "3.11" and python_version < "4.0" \
 sphinx-copybutton==0.5.2 ; python_version >= "3.11" and python_version < "4.0" \
     --hash=sha256:4cf17c82fb9646d1bc9ca92ac280813a3b605d8c421225fd9913154103ee1fbd \
     --hash=sha256:fb543fd386d917746c9a2c50360c7905b605726b9355cd26e9974857afeae06e
+sphinx-data-viewer==0.1.5 ; python_version >= "3.11" and python_version < "4.0" \
+    --hash=sha256:a7d5e58613562bb745380bfe61ca8b69997998167fd6fa9aea55606c9a4b17e4 \
+    --hash=sha256:b74b1d304c505c464d07c7b225ed0d84ea02dcc88bc1c49cdad7c2275fbbdad4
 sphinx==8.2.3 ; python_version >= "3.11" and python_version < "4.0" \
     --hash=sha256:398ad29dee7f63a75888314e9424d40f52ce5a6a87ae88e7071e80af296ec348 \
     --hash=sha256:4405915165f13521d875a8c29c8970800a0141c14cc5416a38feca4ea5d9b9c3

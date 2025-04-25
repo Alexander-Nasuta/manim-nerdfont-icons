@@ -22,6 +22,7 @@ myst-parser = "^4.0.1"
 furo = "^2024.8.6"
 twine = "^6.1.0"
 pyrr = "^0.10.3"
+sphinx-data-viewer = "^0.1.5"
 
 [build-system]
 requires = ["poetry-core"]

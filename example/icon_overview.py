@@ -7,7 +7,7 @@ class NerdfontIconOverview(m.Scene):
     def construct(self):
 
         no_rows = 6
-        no_cols = 7
+        no_cols = 5
 
         from manim_nerdfont_icons.icons_dict import SYMBOLS_UNICODE
 
