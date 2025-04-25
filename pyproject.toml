@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "manim-nerdfont-icons"
+
+packages = [
+    { include = "manim_nerdfont_icons" }
+]
+version = "0.1.0"
+description = ""
+authors = ["Alexander Nasuta <alexander.nasuta@ima.rwth-aachen.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+manim = "^0.19.0"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^8.2.3"
+sphinx-autobuild = "^2024.10.3"
+sphinx-copybutton = "^0.5.2"
+myst-parser = "^4.0.1"
+furo = "^2024.8.6"
+twine = "^6.1.0"
+pyrr = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
