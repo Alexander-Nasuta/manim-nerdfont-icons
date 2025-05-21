@@ -4,7 +4,7 @@ name = "manim-nerdfont-icons"
 packages = [
     { include = "manim_nerdfont_icons" }
 ]
-version = "1.0.1"
+version = "1.0.2"
 description = ""
 authors = ["Alexander Nasuta <alexander.nasuta@wzl-iqs.rwth-aachen.de>"]
 readme = "README.md"
