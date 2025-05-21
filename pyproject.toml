@@ -4,8 +4,8 @@ name = "manim-nerdfont-icons"
 packages = [
     { include = "manim_nerdfont_icons" }
 ]
-version = "1.0.3"
-description = ""
+version = "1.0.4"
+description = "A manim plugin that enables the use of Nerd Fonts icons in manim."
 authors = ["Alexander Nasuta <alexander.nasuta@wzl-iqs.rwth-aachen.de>"]
 readme = "README.md"
 license = "MIT"
