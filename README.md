@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./resources/nerd-fonts-logo.svg" alt="Nerd Fonts Logo" />
+  <img src="https://raw.githubusercontent.com/Alexander-Nasuta/manim-nerdfont-icons/master/resources/nerd-fonts-logo.svg" alt="Nerd Fonts Logo" />
 </h1>
 
 # About this Project
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
 This should yield a Scene that looks like so:
 
-![Example Output Screenshot](./resources/example_scene.png)
+![Example Output Screenshot](https://raw.githubusercontent.com/Alexander-Nasuta/manim-nerdfont-icons/master/resources/example_scene.png)
 
 
 ### Documentation

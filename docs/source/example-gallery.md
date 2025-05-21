@@ -1,7 +1,7 @@
 # Example Gallery
 
-This gallery contains a collection of code snippets together with their corresponding output, illustrating different 
-functionalities all across the library.
+This gallery contains a collection of code snippets together with their corresponding output, illustrating different ways to create nerd font icons in Manim.
+
 
 
 ```{eval-rst}
@@ -15,7 +15,6 @@ functionalities all across the library.
     class NerdfontIconMinimalExample(m.Scene):
 
         def construct(self):
-            self.camera.background_color = "#ece6e2"
             
             icon = nerdfont_icon("language-python", color=m.BLUE)
             self.add(icon)
@@ -40,7 +39,7 @@ Please have a look at the icon galelry to browse all available icons.
         def construct(self):
 
             no_rows = 6
-            no_cols = 7
+            no_cols = 5
 
             from manim_nerdfont_icons.icons_dict import SYMBOLS_UNICODE
 
@@ -108,7 +107,6 @@ Please have a look at the icon galelry to browse all available icons.
     class NerdfontIconUnicodeExample(m.Scene):
 
         def construct(self):
-            self.camera.background_color = "#ece6e2"
             
             icon = nerdfont_icon(983840, color=m.BLUE)
             self.add(icon)
@@ -127,7 +125,6 @@ Please have a look at the icon galelry to browse all available icons.
     class NerdfontIconUnicodeHexExample(m.Scene):
 
         def construct(self):
-            self.camera.background_color = "#ece6e2"
             
             icon = nerdfont_icon(0xF0320, color=m.BLUE)
             self.add(icon)

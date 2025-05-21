@@ -1,6 +1,5 @@
 # Manim Nerd Font Icons
 
-
 ```{tip}
 Check out the Example Gallery for a collection of code snippets together with their corresponding output.
 ```
@@ -26,6 +25,11 @@ Have a look at the [Nerd Font Cheat Sheet](https://www.nerdfonts.com/cheat-sheet
     
 ```
 
+# Readme
+
+```{include} ../../README.md
+:relative-images:
+```
 
 
 

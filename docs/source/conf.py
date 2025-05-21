@@ -9,7 +9,7 @@
 project = 'manim-nerdfont-icons'
 copyright = '2025, Alexander Nasuta'
 author = 'Alexander Nasuta'
-release = '0.1.0'
+release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
