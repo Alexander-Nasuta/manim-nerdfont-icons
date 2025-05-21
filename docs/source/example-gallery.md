@@ -23,7 +23,7 @@ functionalities all across the library.
 ```
 
 ```{tip}
-Have a look at the [Nerd Font Cheat Sheet](https://www.nerdfonts.com/cheat-sheet) for a list of all available icons.
+Please have a look at the icon galelry to browse all available icons.
 ```
 
 ```{eval-rst}
@@ -51,11 +51,10 @@ Have a look at the [Nerd Font Cheat Sheet](https://www.nerdfonts.com/cheat-sheet
                 icon_unicode = SYMBOLS_UNICODE[icon_name]
 
                 m_symbol = nerdfont_icon(icon_unicode, font_size=20)
-                m_name = m.Text(icon_name, font_size=15, font="DejaVu Sans Mono")
+                m_name = m.Text(icon_name, font_size=15)
                 m_unicode =  m.Text(
                     f"0x{icon_unicode:04X}",
                     font_size=15,
-                    font="DejaVu Sans Mono",
                     color=m.BLUE
                 )
 
@@ -95,6 +94,45 @@ Have a look at the [Nerd Font Cheat Sheet](https://www.nerdfonts.com/cheat-sheet
 
 ```
 
+
+
+
+```{eval-rst}
+.. manim:: NerdfontIconUnicodeExample
+    :save_last_frame:
+    
+    
+    import manim as m
+    from manim_nerdfont_icons.icons import nerdfont_icon
+
+    class NerdfontIconUnicodeExample(m.Scene):
+
+        def construct(self):
+            self.camera.background_color = "#ece6e2"
+            
+            icon = nerdfont_icon(983840, color=m.BLUE)
+            self.add(icon)
+    
+```
+
+
+```{eval-rst}
+.. manim:: NerdfontIconUnicodeHexExample
+    :save_last_frame:
+    
+    
+    import manim as m
+    from manim_nerdfont_icons.icons import nerdfont_icon
+
+    class NerdfontIconUnicodeHexExample(m.Scene):
+
+        def construct(self):
+            self.camera.background_color = "#ece6e2"
+            
+            icon = nerdfont_icon(0xF0320, color=m.BLUE)
+            self.add(icon)
+    
+```
 
 
 

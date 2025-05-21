@@ -18,11 +18,10 @@ class NerdfontIconOverview(m.Scene):
             icon_unicode = SYMBOLS_UNICODE[icon_name]
 
             m_symbol = nerdfont_icon(icon_unicode, font_size=20)
-            m_name = m.Text(icon_name, font_size=15, font="DejaVu Sans Mono")
+            m_name = m.Text(icon_name, font_size=15, )
             m_unicode =  m.Text(
                 f"0x{icon_unicode:04X}",
                 font_size=15,
-                font="DejaVu Sans Mono",
                 color=m.BLUE
             )
 

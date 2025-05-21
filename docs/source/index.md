@@ -34,4 +34,5 @@ Have a look at the [Nerd Font Cheat Sheet](https://www.nerdfonts.com/cheat-sheet
 :maxdepth: 2
 
 example-gallery
+icon-gallery
 ```

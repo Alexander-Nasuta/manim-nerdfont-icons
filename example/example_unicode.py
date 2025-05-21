@@ -2,12 +2,12 @@ import manim as m
 from manim_nerdfont_icons.icons import nerdfont_icon
 
 
-class NerdfontIconMinimalExample(m.Scene):
+class NerdfontIconUnicodeExample(m.Scene):
 
     def construct(self):
         self.camera.background_color = "#ece6e2"
 
-        icon = nerdfont_icon("language-python", color=m.BLUE)
+        icon = nerdfont_icon(983840, color=m.BLUE)
 
         self.add(icon)
 
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     from pathlib import Path
 
     FLAGS = "-pqm"
-    SCENE = "NerdfontIconMinimalExample"
+    SCENE = "NerdfontIconUnicodeExample"
 
     file_path = Path(__file__).resolve()
     os.system(f"manim {Path(__file__).resolve()} {SCENE} {FLAGS}")

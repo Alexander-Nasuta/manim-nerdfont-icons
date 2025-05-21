@@ -9,7 +9,13 @@ from manim_nerdfont_icons.icons_dict import SYMBOLS_UNICODE
 
 def nerdfont_icon(icon: int | str, **kwargs) -> Text:
     """
-    Returns the Nerd Font icon for a given name.
+    Create a Nerd Font icon using the Symbols Nerd Font Mono font.
+    Please have a look at the documentation for an exhaustive list of available icons.
+
+    :param icon: The icon to be displayed. It can be an integer (Unicode code point) or a string (icon name).
+    :param kwargs: Additional keyword arguments to be passed to the Text constructor.
+
+    :return: A Text object representing the specified icon.
     """
     with pkg_resources.path(manim_nerdfont_icons.resources, 'SymbolsNerdFontMono-Regular.ttf') as font_path:
         with m.register_font(str(font_path)):
