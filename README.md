@@ -1,4 +1,4 @@
-[![PyPI version](https://img.shields.io/pypi/v/manim-nerdfont-icons)](https://pypi.org/project/jsp-instance-utils/)
+[![PyPI version](https://img.shields.io/pypi/v/manim-nerdfont-icons)](https://pypi.org/project/manim-nerdfont-icons/)
 ![License](https://img.shields.io/pypi/l/manim-nerdfont-icons)
 [![Documentation Status](https://readthedocs.org/projects/manim-nerdfont-icons/badge/?version=latest)](https://manim-nerdfont-icons.readthedocs.io/en/latest/?badge=latest)
 
