@@ -1,3 +1,8 @@
+[![PyPI version](https://img.shields.io/pypi/v/manim-nerdfont-icons)](https://pypi.org/project/jsp-instance-utils/)
+![License](https://img.shields.io/pypi/l/manim-nerdfont-icons)
+[![Documentation Status](https://readthedocs.org/projects/manim-nerdfont-icons/badge/?version=latest)](https://jsp-instance-utils.readthedocs.io/en/latest/?badge=latest)
+
+
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/Alexander-Nasuta/manim-nerdfont-icons/master/resources/nerd-fonts-logo.svg" alt="Nerd Fonts Logo" />
 </h1>
@@ -15,7 +20,7 @@ This package also takes care of providing a font, so you even don't need to have
 
 Install the package with pip:
 ```
-   pip install <<todo>>
+   pip install manim-nerdfont-icons
 ```
 
 

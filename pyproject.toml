@@ -4,10 +4,11 @@ name = "manim-nerdfont-icons"
 packages = [
     { include = "manim_nerdfont_icons" }
 ]
-version = "1.0.0"
+version = "1.0.1"
 description = ""
-authors = ["Alexander Nasuta <alexander.nasuta@ima.rwth-aachen.de>"]
+authors = ["Alexander Nasuta <alexander.nasuta@wzl-iqs.rwth-aachen.de>"]
 readme = "README.md"
+license = "MIT"
 
 [tool.poetry.requires-plugins]
 poetry-plugin-export = ">=1.8"
