@@ -79,7 +79,7 @@ These are the requirements, that readthedocs uses to build the documentation.
 The file can be updated using this command:
 
 ```shell
-poetry export -f requirements.txt --output requirements.txt --with dev
+uv export --format requirements.txt --output-file requirements.txt --extra dev
 ```
 
 This project features most of the extensions featured in this Tutorial: [Document Your Scientific Project With Markdown, Sphinx, and Read the Docs | PyData Global 2021](https://www.youtube.com/watch?v=qRSb299awB0).
